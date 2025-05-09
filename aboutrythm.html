@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Rhythm House</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="cdn/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome@6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent nav_bar fixed-top" >
+    <div class="container">
+      <h5><a class="navbar-brand fw-bold" href="#">RHYTHM HOUSE</a></h5> 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#latest-albums">Latest Albums</a></li>
+              <li><a class="dropdown-item" href="#cd-albums">CD/DVD Tapes</a></li>
+              <li><a class="dropdown-item" href="#video-albums">Video</a></li>
+              <li><a class="dropdown-item" href="#solo-albums">Solo play</a></li>
+              <li><a class="dropdown-item" href="#bands">Bands</a></li>
+      
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Magazines
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="magazines.html">Music Magazines</a></li>
+              <li><a class="dropdown-item" href="magazines.html">Artist Interviews</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Others
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="sign-up-rythm.html">Sign-up</a></li>
+              <li><a class="dropdown-item" href="Loginpage.html">Login</a></li>
+             <li><a class="dropdown-item" href="aboutrythm.html">About us</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#searchModal">
+              <i class="fas fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Search Modal -->
+  <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="searchModalLabel">Search Music</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Search for songs, artists, albums..." aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <video autoplay muted loop class="bg-video">
+      <source src="video/video2.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100 d-flex align-items-center">
+      <div class="text-center w-100 glass-card p-5">
+        <h1 class="display-4 fw-bold">Our Musical Journey</h1>
+        <p class="lead">Since 2010, Connecting Hearts Through Music</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <div class="container py-5">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <div class="glass-card p-4 h-100">
+          <h3 class="mb-4"><i class="fas fa-compact-disc me-2"></i>Who We Are</h3>
+          <p class="text-white lead">
+            Rhythm House is not just a music platform - it's a revolution in audio experience. 
+            With over 2 million tracks and 50,000 artists, we bring the world's music to your ears.
+          </p>
+          <div class="row mt-4">
+            <div class="col-6">
+              <div class="text-center p-3 bg-primary rounded">
+                <h2>12+</h2>
+                <small>Years in Industry</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="text-center p-3 bg-secondary rounded">
+                <h2>5M+</h2>
+                <small>Happy Listeners</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="glass-card p-4 h-100">
+          <h3 class="mb-4"><i class="fas fa-trophy me-2"></i>Our Achievements</h3>
+          <ul class="list-unstyled text-white">
+            <li class="mb-3">
+              <i class="fas fa-award text-primary me-2"></i>
+              2023 Best Music Platform Award
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-headphones text-primary me-2"></i>
+              1M+ Daily Active Users
+            </li>
+            <li class="mb-3">
+              <i class="fas fa-globe text-primary me-2"></i>
+              Available in 150+ Countries
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sales Flow Chart -->
+  <div class="container py-5">
+    <h3 class="text-center mb-4">Monthly Music Sales Flow</h3>
+    <div class="sales-chart">
+      <canvas id="salesChart"></canvas>
+    </div>
+  </div>
+
+  <!-- Team Section -->
+  <div class="container py-5">
+    <h3 class="text-center mb-5">Meet The Maestros</h3>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="glass-card p-3 text-center">
+          <img src="images/kamal1.jpg" class="rounded-circle mb-3" width="150" alt="CEO">
+          <h4>Kamal uddin</h4>
+          <p class="text-primary">Founder & CEO</p>
+          <div class="social-links">
+            <a href="#" class="text-light mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-md-4">
+        <div class="glass-card p-3 text-center">
+          <img src="images/hamza.jpg" class="rounded-circle mb-3" width="150" alt="CEO">
+          <h4>Hamza Hayat</h4>
+          <p class="text-primary">Manager</p>
+          <div class="social-links">
+            <a href="#" class="text-light mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        
+    </div>
+    <div class="col-md-4">
+      <div class="glass-card p-3 text-center">
+        <img src="images/kamal1.jpg" class="rounded-circle mb-3" width="150" alt="CEO">
+        <h4>Ilim uddin</h4>
+        <p class="text-primary">Director</p>
+        <div class="social-links">
+          <a href="#" class="text-light mx-2"><i class="fab fa-linkedin"></i></a>
+          <a href="#" class="text-light mx-2"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+  <footer id ="footer" class="py-4 m-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5 class="text-primary">RHYTHM HOUSE</h5>
+          <p class="text-muted">Your premier destination for quality music and videos since 2025.</p>
+        </div>
+        <div class="col-md-2 mb-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted">Home</a></li>
+            <li><a href="#" class="text-muted">About Us</a></li>
+            <li><a href="#" class="text-muted">Contact</a></li>
+            <li><a href="#" class="text-muted">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h5>Categories</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-muted">Audio Music</a></li>
+            <li><a href="#" class="text-muted">Video Albums</a></li>
+            <li><a href="#" class="text-muted">CD/DVD</a></li>
+            <li><a href="#" class="text-muted">Solo Play</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h5>Connect With Us</h5>
+          <div class="social-icons">
+            <a href="facebook.com" target="_self" class="text-muted me-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="twtter.com" class="text-muted me-2"><i class="fab fa-twitter"></i></a>
+            <a href="instagram.com" class="text-muted me-2"><i class="fab fa-instagram"></i></a>
+            <a href="youtube.com" class="text-muted me-2"><i class="fab fa-youtube"></i></a>
+          </div>
+          <p class="text-muted mt-2">support@rhythmhouse.com</p>
+        </div>
+      </div>
+      <hr class="my-4 bg-secondary">
+      <div class="text-center">
+        <p class="text-muted mb-0">&copy; 2025 Rhythm House. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="cdn/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
